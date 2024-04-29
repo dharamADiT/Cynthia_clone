@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ojuju:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+ 
+}
+
+html,body{
+  width: 100%;
+  
+
+}
+ 
+.main{
+  width: 100%;
+
+}
+.hero{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.nav{
+  width: 100%;
+  padding: 1.8vw 3vw;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.nav a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Google Sans Medium";
+}
+.nav h2{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+
+}
+.second{
+  
+  padding: 7vw 3vw;
+}
+.second h1{
+  font-size: 11vw;
+  text-transform: uppercase;
+  color: #ffffff9d;
+  line-height: 0.8;
+  font-weight: 550;
+  font-family: "Noto Sans", sans-serif;
+
+}
+
+.second .h1_second{
+  margin-left: 11vw;
+  
+}
+.second .divs{
+  width: fit-content;
+  color: #fff;
+}
+
+.second p{
+  margin-top: 1vw;
+  text-align: right;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.side_div{
+  color: #fff;
+  padding-right: 3vw;
+  /* background-color: red; */
+  font-family: "Poppins", sans-serif;
+
+
+}
+.side_div h3{
+  text-align: right;
+  line-height: 2;
+  letter-spacing: 1px;
+  text-transform: uppercase ;
+  font-size: 15px;
+}
+.footer_div {
+   margin-top: 5vw;
+  display: flex;
+  padding: 0 3vw;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_div a{
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.footer_div .third{
+  display: flex;
+  gap: 8px;
+
+}
+.footer_div .circle i{
+  color: black;
+}
+.footer_div .circle{
+  width: 25px;
+  height: 25px;
+  background-color: #ffffffbb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.hero2{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  margin-right: 10vw;
+  padding-bottom: 10vw;
+}
+.hero2 .hero2_first{
+  
+
+}
